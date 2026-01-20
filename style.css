@@ -1,0 +1,155 @@
+body{
+    background-image: linear-gradient(100deg,#8400ff ,#e100ff  );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    direction: rtl;
+    text-align: center;
+}
+.content-text{
+    background-color: #8400ff;
+    box-shadow: 0 0 10px #000000;
+    padding: 1px;
+    text-align: center;
+}
+#content-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+    /* right: 20%; */
+    
+   
+}
+.box{
+     width: 150px;
+     height: 150px;
+     background-color: #8400ff;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #000000;
+     font-size: 110px;
+     color: aliceblue;
+}
+
+/* هدي لسطر وسطي  */
+.line1{
+    width: 500px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 0px;
+    /* /* left: 20%; */
+    top: 50%;
+    z-index: 20;
+    border-radius: 100px;
+     transform: rotate(50deg)
+}
+/* هدي لسطر وسطي  */
+.line2{
+    width: 500px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 0px;
+    /* /* left: 20%; */
+    top: 50%;
+    z-index: 20;
+    border-radius: 100px;
+     transform: rotate(-50deg)
+}
+
+/*  هدي لسطر الاول من فوق*/
+.line3{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 50px;
+    left: 20%;
+    top: 20%;
+    z-index: 20;
+    border-radius: 100px;
+
+} 
+/* سطر تاني من فوق  */
+.line4{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 50px;
+    top: 48%;
+    z-index: 20;
+    border-radius: 100px;
+} 
+/* سطر الاخير من فوق */
+.line5{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 50px;
+    top: 75%;
+    z-index: 20;
+    border-radius: 100px;
+} 
+/* سطر الاول من جنب  */
+.line6{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: -105px;
+    top: 50%;
+    z-index: 20;
+    border-radius: 100px;
+     transform: rotate(90deg)
+}
+/* سطر تاني من جنب  */
+.line7{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    z-index: 20;
+    border-radius: 100px;
+     transform: rotate(90deg)
+}
+/* سطر ثالث من جنب */
+.line8{
+    width: 400px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    right: 210px;
+    top: 50%;
+    z-index: 20;
+    border-radius: 100px;
+    transform: rotate(90deg);
+}
+.line90{
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(120deg, #ae00ff , #da1bca);
+    position: absolute;
+    z-index: 100;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: #000000 0 0 10px;
+}
+.content-background90{
+    width: 100%;
+    height: 100vh;
+    background-color: #9a10c48e;
+    position: absolute;
+    z-index: 90;
+}
