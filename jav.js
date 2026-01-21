@@ -12,13 +12,18 @@ function background(numbr1, numbr2, numbr3) {
     }, 200);
     setTimeout(() => {
         document.getElementById("box" + numbr3).style.backgroundColor = "#17f702"
+        document.getElementById("line").innerHTML = "<h1> لقد فزت</h1>"
+        document.getElementById("line").style.display = "block"
     }, 300);
+    setTimeout(() => {
+        location.reload()
+    }, 3000);
     audio2.play()
 }
 function elsebox() {
     for (let i = 1; i < 10; i++) {
        document.getElementById("box" + i).style.backgroundColor = "#83888d"
-        
+        location.reload
     }    
 }
 function winner() {
